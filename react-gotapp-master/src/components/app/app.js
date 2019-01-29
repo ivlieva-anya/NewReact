@@ -4,6 +4,7 @@ import Header from '../header';
 import RandomChar from '../randomChar';
 import ItemList from '../itemList';
 import CharDetails from '../charDetails';
+// import GotService from 'C:/myProgram/src/services';
 
 
 const App = () => {
@@ -26,7 +27,9 @@ const App = () => {
                         <CharDetails />
                     </Col>
                 </Row>
+                
             </Container>
+            
         </>
     );
 };
